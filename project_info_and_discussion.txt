@@ -1,0 +1,20 @@
+
+this is our group project
+
+this game helps you in challenging your memory and comes with 3 inbuilt levels. 
+
+the game offers very attractive interface and also times the user on each level.
+ HEAD
+this was our project in semester 1
+changed the image on the main page
+i am making all the changes in a new branch: branch1; to avoid any conflicts.
+i have removed "about.html" because it was not working.
+
+(resolved the merge conflicts and this is all i want to keep)
+
+i changed the main image on the main page to match the main theme
+ 5ea9b00a0e1731e280f99432e6118658c1319e63
+
+the css files have been changed and updated by Prachi(0552).
+
+

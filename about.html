@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory card game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-custom {
+            background-color: rgba(212, 173, 237, 0.9);  /* Adjusted color for visibility */
+        }
+        .navbar-custom .nav-link {
+            color: beige; /* Beige text color */
+            text-decoration: none; /* Remove underline */
+            outline: none; /* Remove focus outline */
+        }
+        .navbar-custom .nav-link:hover,
+        .navbar-custom .nav-link:focus {
+            color: black; /* Black color on hover */
+            outline: none; /* Ensure no outline on hover or focus */
+        }
+        .opaque-box {
+            background-color: rgba(0, 0, 0, 0.7);  /* Black background with 70% opacity */
+            color: white;  /* White text color */
+            padding: 20px;  /* Padding inside the box */
+            border-radius: 10px;  /* Rounded corners */
+            width: calc(100% - 40px); /* Responsive width */
+            max-width: 700px;  /* Max width */
+            margin: 20px auto;  /* Center the box */
+            text-align: center;  /* Center text inside the box */
+            
+        }
+        body {
+            background-color: #78c1f3;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url('flower.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+            padding-top: 80px;  /* Space for fixed navbar */
+            margin: 0; /* Ensure no extra space */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+        .nav-item:hover {
+            background-color: rgba(86, 113, 136, 0.7);
+        }
+        .heading {
+            background-color: rgba(212, 173, 237, 0.7);  /* Semi-transparent background */
+            color: black;  /* Black text color */
+            padding: 20px;  /* Padding inside the box */
+            border-radius: 10px;  /* Rounded corners */
+            width: calc(100% - 40px); /* Responsive width */
+            max-width: 700px;  /* Max width */
+            margin: 20px auto;  /* Center the box */
+            text-align: center;  /* Center text inside the box */
+            font-size: 60px;
+        }
+        .navbar {
+            width: 100%;  /* Full width */
+            position: fixed;  /* Fixed position at the top */
+            top: 0;  /* At the top of the page */
+            z-index: 1000;  /* Ensure it stays above other content */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid justify-content-center">
+          <a class="navbar-brand" href="#"><img src="download.png" height="30px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="main.html" target="new">Home Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="instructions.html" target="new">Instructions</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <div class="heading">ABOUT</div><br>
+    
+    <div class="opaque-box">The Memory Card Game, often referred to simply as "Memory" or "Concentration," is a classic and engaging activity that challenges players to find matching pairs of cards from a shuffled set laid out face down. It’s a simple yet effective game that can be enjoyed by individuals of all ages, whether played solo or with others. The essence of the game lies in turning over two cards at a time in an attempt to find a pair. If the cards match, they remain face up; if not, they are turned back over, and the player continues until all pairs are found.
+
+        Playing the Memory Card Game offers numerous cognitive benefits. It significantly enhances concentration, as players must remember the location and identity of previously revealed cards. This game sharpens short-term memory, boosts pattern recognition skills, and encourages strategic thinking. Additionally, it can serve as an excellent tool for children to develop their cognitive abilities in a fun and interactive way. For adults and seniors, the game is a delightful way to keep the mind sharp and engaged, providing both mental stimulation and relaxation.
+        
+        Moreover, the Memory Card Game promotes patience and perseverance. The sense of achievement when finding a pair fuels motivation and enjoyment, making it a rewarding experience. Its simplicity requires minimal setup, making it an accessible and versatile game that can be played anywhere, from family gatherings to classroom settings. The game’s timeless appeal lies in its ability to bring people together, fostering social interaction and friendly competition while exercising the brain.
+    </div>
+</body>
+</html>
