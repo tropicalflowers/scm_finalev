@@ -14,10 +14,8 @@ Its features are:
 
  How to run it:
   Extract the ZIP file.
- Open `index.html` in a browser (if it's web-based) or run with Python/etc.
-
-
- one file had accidentally been deleted from this online repository but it has been restored
+ Open `index.html` in a browser (if it's web-based) or run with Python/e..
+ 
  
 
 
