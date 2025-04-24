@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+  background-color: #78c1f3 ;
+  /*background-image: url('flower.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    padding-top: 80px;  /* Space for fixed navbar */
+}
+}
+
+.wrapper {
+  padding: 25px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.card .view {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #fff;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.card .front-view {
+  transform: rotateY(0deg);
+}
+
+.card .back-view {
+  transform: rotateY(180deg);
+}
+
+.card.flip .front-view {
+  transform: rotateY(180deg);
+}
+
+.card.flip .back-view {
+  transform: rotateY(0deg);
+}
+
+.card .front-view img {
+  width: 19px;
+}
+.card .back-view img {
+  max-width: 45px;
+}
+.navbar-custom {
+  background-color: rgba(212, 173, 237, 0.9);  /* Adjusted color for visibility */
+}
+
+.navbar-custom .nav-link {
+  color: beige; /* Beige text color */
+  text-decoration: none; /* Remove underline */
+  outline: none; /* Remove focus outline */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+  color: black; /* Black color on hover */
+  outline: none; /* Ensure no outline on hover or focus */
+}
+
+.nav-item:hover {
+  background-color: rgba(86, 113, 136, 0.7);
+}
+
+.navbar {
+  width: 100%;  /* Full width */
+  position: fixed;  /* Fixed position at the top */
+  top: 0;  /* At the top of the page */
+  z-index: 1000;  /* Ensure it stays above other content */
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#"><img src="download.png" height="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="main.html" target="new">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instructions.html" target="new">Instructions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" target="new">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<br><br><br><br><br><br><br><br><br><br>
+    
+      <center><h1 class="text-white">Memory Card Game</h1></center>
+    
+
+    <div class="container mt-4">
+        <div class="startgame">
+            <div class="card active" level="2" column="2" row="2">
+                <div class="front">Easy</div>
+                <div class="back">
+                    <a href="easy.html" target="_blank">2*2</a>
+                </div>
+            </div>
+            <div class="card" level="6" column="3" row="4">
+                <div class="front">Normal</div>
+                <div class="back">
+                    <a href="normal.html" target="_blank">3*4</a>
+                </div>
+            </div>
+            <div class="card" level="8" column="4" row="4">
+                <div class="front">Expert</div>
+                <div class="back">
+                    <a href="hard.html" target="_blank">4*4</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
