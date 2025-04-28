@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll(".card");
 
-let matched = 0;
+let matched = 1;
 let cardOne, cardTwo;
 let disableDeck = false;
 let startTime, endTime;
